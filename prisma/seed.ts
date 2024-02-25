@@ -5,7 +5,7 @@ import events from "./preview.json";
 try {
   for (let i in events) {
     const [day, month, year] = events[i].date.split("/");
-    const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day)).toDateString();
+    const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day)).toISOString();
     const century = Math.ceil(parseInt(year) / 100);
 
     const created = await prisma.event.create({
