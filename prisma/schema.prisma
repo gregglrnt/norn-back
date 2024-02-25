@@ -1,0 +1,35 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Century {
+  id     Int     @id
+  events Event[]
+}
+
+model Country {
+  id     Int     @id @default(autoincrement())
+  name   String  @unique
+  flag   String?
+  events Event[]
+}
+
+model Event {
+  id          Int     @id @default(autoincrement())
+  title       String
+  date        String
+  description String
+  coordinates String
+  century     Century @relation(fields: [centuryId], references: [id])
+  centuryId   Int
+  country     Country @relation(fields: [countryId], references: [id])
+  countryId   Int
+}

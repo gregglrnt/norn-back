@@ -1,0 +1,155 @@
+[
+  {
+    "title": "Battle of Marignan",
+    "date": "14/09/1515",
+    "description": "In a battle against the Swiss, French king François I defeats a coalition of Swiss mercenaries and Italian soldiers",
+    "coordinates": "45.3587886,9.3239755",
+    "country": "Milan"
+  },
+  {
+    "title": "Battle of Pavie",
+    "date": "24/02/1525",
+    "description": "Emperor Charles V defeats the French army and captures French king François I",
+    "coordinates": "45.0368546,9.1378251",
+    "country": "Milan"
+  },
+  {
+    "title": "Leonardo da Vinci dies",
+    "date": "2/05/1519",
+    "description": "In his castle in Clos-Lucé, Leonardo da Vinci dies",
+    "coordinates": "47.40892028808594,0.9935508966445923",
+    "country": "France"
+  },
+  {
+    "title": "Christopher Colombus arrives in America",
+    "date": "12/10/1492",
+    "description": "Almost 500 years after the last Vikings were there, Christopher Colombus arrives in America.",
+    "coordinates": "24.0366667,-74.49305555555556"
+  },
+  {
+    "title": "Henri VIII sacred king of England",
+    "date": "24/06/1509",
+    "description": "A young man, Henry VIII becomes king of England.",
+    "coordinates": "51.499399,-0.127391",
+    "country": "England"
+  },
+  {
+    "title": "Start of the Civil War (USA)",
+    "date": "12/04/1861",
+    "description": "The Confederates bombard Fort Sumter In South Carolina, starting the Civil war. It will be the bloodiest war in US history.",
+    "coordinates": "32.752222,-79.874722",
+    "country": "USA"
+  },
+  {
+    "title": "Saturn V leaves Earth for the Moon",
+    "date": "16/07/1969",
+    "description": "Apollo 11 leaves Earth. It is the first manned mission to lay foot on the moon.",
+    "coordinates": "28.524167,-80.650833",
+    "country": "USA"
+  },
+  {
+    "title": "Rome was not made in a day",
+    "date": "21/04/-753",
+    "description": "According to Roman myths, Rome was founded on that day, but historically, that's probably not the case",
+    "coordinates": "41.888732,12.48657",
+    "country": "Roman Republic"
+  },
+  {
+    "title": "Octavian becomes Augustus",
+    "date": "16/01/-27",
+    "description": "The Senate gives Octavian the title of Augustus and princeps, even though he's now known as the first Roman emperor.",
+    "coordinates": "41.888732,12.48657",
+    "country": "Roman Republic"
+  },
+  {
+    "title": "Julius Caesar is murdered",
+    "date": "15/03/-44",
+    "description": "Even though many people told him so, Julius Caesar doesn't care and gets murdered. He's knifed 23 times - even by his adopted son. Tu quoque, mi fili.",
+    "coordinates": "41.895309,12.476344",
+    "country": "Roman Republic"
+  },
+  {
+    "title": "Tennis Court Oath",
+    "date": "20/06/1789",
+    "description": "The members of the French Third estate join in a tennis (\"jeu de paume\") court and take an oath to never separate until France has a constitution.",
+    "coordinates": "48.801,2.123889",
+    "country": "France"
+  },
+  {
+    "title": "Sad night in Texcoco",
+    "date": "30/06/1520",
+    "description": "Hernan Cortez and the Spanish conquistadores are defeated by the Aztecs and retreat… well, not for long.",
+    "coordinates": "19.419444,-99.133333",
+    "country": "Aztec Empire"
+  },
+  {
+    "title": "Crusade I : the beginning",
+    "date": "01/01/1095",
+    "description": "Pope Urban II calls for the first crusade to liberate Jerusalem from the Seldjuk empire.",
+    "coordinates": "45.783088, 3.082352",
+    "country": "France"
+  },
+  {
+    "title": "Jerusalem taken by the Crusaders",
+    "date": "15/07/1099",
+    "description": "Jerusalem falls to the Crusaders. The population is slaughtered because of course it is.",
+    "coordinates": "31.778889, 35.225556",
+    "country": "Fatimid Empire"
+  },
+  {
+    "title": "Crusade II : Not so good",
+    "date": "31/03/1146",
+    "description": "Bernard de Clairvaux preaches for the Second crusade in Vézelay. King Louis VII of France is swayed and promise to follow suit.",
+    "coordinates": "47.466389, 3.748334",
+    "country": "France"
+  },
+  {
+    "title": "Crusade III : clash of the titans",
+    "date": "29/10/1187",
+    "description": "Pope Gregory VIII decides the lost territories of the crusaders must be taken back and launches the third crusade, which will involve Frederic Barbarossa, Richard Lionheart, Philippe Auguste and Saladin. So much wow.",
+    "coordinates": "41.888732, 12.48657",
+    "country": "Papal States"
+  },
+  {
+    "title": "Crusade IV : a bit of a scam",
+    "date": "15/08/1198",
+    "description": "Innocent III, the new pope, wants his own crusade. It will be the fourth one, and will only end up in destroying another Christian state. Yay.",
+    "coordinates": "41.888732, 12.48657",
+    "country": "Papal States"
+  },
+  {
+    "title": "Crusade V : let's try to do something guys",
+    "date": "01/01/1213",
+    "description": "Innocent III is very stubborn and tries for another crusade, this time against Egypt.",
+    "coordinates": "41.888732, 12.48657",
+    "country": "Papal States"
+  },
+  {
+    "title": "Crusade VI : Frederic II's adventure",
+    "date": "28/06/1228",
+    "description": "Even though he's been excommunicated by Pope Gregory IX, Frederic II decides to go for a new crusade, to reconquer Jerusalem.",
+    "coordinates": "40.63333, 17.93333",
+    "country": "Sicily"
+  },
+  {
+    "title": "Crusade VII : St Louis' contribution",
+    "date": "25/08/1248",
+    "description": "French king Louis IX leaves for the Holy land, hoping to do something.",
+    "coordinates": "43.5675, 4.193333",
+    "country": "France"
+  },
+  {
+    "title": "Crusade VIII : St Louis' failure",
+    "date": "15/07/1270",
+    "description": "Louis IX decides to go this time in Tunis, where he dies.",
+    "coordinates": "36.79745, 10.165863",
+    "country": "Tunis sultanate"
+  },
+  {
+    "title": "Crusade IX : one again ?",
+    "date": "9/05/1271",
+    "description": "The heir prince of England, Edward, arrives in Acre for a new crusade, which will be the last.",
+    "coordinates": "32.927778, 35.081667",
+    "country": "Outremer"
+  }
+]
