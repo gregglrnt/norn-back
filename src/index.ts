@@ -1,14 +1,34 @@
 import { Elysia} from "elysia";
 import { prisma } from "../prisma";
 import cors from "@elysiajs/cors";
+import { env } from "bun";
 
-const app = new Elysia();
+const auth = new Elysia().state('auth', 1).onBeforeHandle(({headers, set}) => {
+  const token = headers['authorization'];
+  if(token !== env.DEV_TOKEN) {
+    set.status = "Unauthorized"
+    return "You're not authorized"
+  }
+});
 
-app.use(cors())
+const radio = new Elysia();
 
-app.get("/", () => "Hello world");
+radio.use(cors())
 
-app.get("century/:year", async ({ params }) => {
+radio.use(auth)
+
+// radio.all("/", ({headers, set}) => {
+//   console.log("authenticating user", headers);
+//   const token = headers['authorization'];
+//   if(token !== env.DEV_TOKEN) {
+//       set.status = 'Unauthorized'
+//       return 'Ooops';
+//     }
+// })
+
+radio.get("/", () => "Hello world");
+
+radio.get("century/:year", async ({ params }) => {
   const id = parseInt(params.year);
     if(isNaN(id)) return {error: "Id should be a number between -30 and 21"}
     try { 
@@ -26,8 +46,8 @@ app.get("century/:year", async ({ params }) => {
     }
 });
 
-app.listen(8000);
+radio.listen(8000);
 
 console.log(
-  `🚀 Server is running at ${app.server?.hostname}:${app.server?.port}`
+  `🚀 Server is running at ${radio.server?.hostname}:${radio.server?.port}`
 );
