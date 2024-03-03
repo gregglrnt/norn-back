@@ -1,50 +1,29 @@
-import { Elysia} from "elysia";
+import { Elysia } from "elysia";
+import { staticPlugin } from "@elysiajs/static"
 import { prisma } from "../prisma";
 import cors from "@elysiajs/cors";
 import { env } from "bun";
-
-const auth = new Elysia().state('auth', 1).onBeforeHandle(({headers, set}) => {
-  const token = headers['authorization'];
-  if(token !== env.DEV_TOKEN) {
-    set.status = "Unauthorized"
-    return "You're not authorized"
-  }
-});
+import country from "./country";
+import century from "./century";
 
 const radio = new Elysia();
 
 radio.use(cors())
 
-radio.use(auth)
+radio.use(staticPlugin())
 
-// radio.all("/", ({headers, set}) => {
-//   console.log("authenticating user", headers);
-//   const token = headers['authorization'];
-//   if(token !== env.DEV_TOKEN) {
-//       set.status = 'Unauthorized'
-//       return 'Ooops';
-//     }
-// })
+radio.get("/", () => { return { "You're now listening to : ": "Radio norn" } });
 
-radio.get("/", () => "Hello world");
-
-radio.get("century/:year", async ({ params }) => {
-  const id = parseInt(params.year);
-    if(isNaN(id)) return {error: "Id should be a number between -30 and 21"}
-    try { 
-    const century = await prisma.event.findMany({
-        where: {
-            centuryId: id
-        }, 
-        include: {
-          country: true
-        }
-    })
-    return century;
-    } catch (err) {
-        console.error(err);
+radio.guard({
+  beforeHandle({ set, headers }) {
+    const token = headers['authorization'];
+    if (token !== env.DEV_TOKEN) {
+      set.status = "Unauthorized"
+      return "You're not authorized"
     }
-});
+  }
+}, (app) => app.use(country).use(century))
+
 
 radio.listen(8000);
 
