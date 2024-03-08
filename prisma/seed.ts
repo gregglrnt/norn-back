@@ -1,6 +1,7 @@
 import { PrismaClientKnownRequestError } from "@prisma/client/runtime/library";
 import { prisma } from ".";
 import events from "./preview.json";
+import { normalize } from "../src/utils/normalize";
 
 try {
   for (let i in events) {
@@ -27,10 +28,12 @@ try {
         country: {
           connectOrCreate: {
             create: {
-              name: events[i].country ?? "",
+              name: normalize(events[i].country ?? ""),
+              label: events[i].country ?? ""
             },
             where: {
-              name: events[i].country ?? "",
+              name: normalize(events[i].country ?? ""),
+              label: events[i].country ?? ""
             },
           },
         },

@@ -4,13 +4,13 @@ import { prisma } from "../prisma";
 import cors from "@elysiajs/cors";
 import { env } from "bun";
 import country from "./country";
-import century from "./century";
+import events from "./events";
 
 const radio = new Elysia();
 
 radio.use(cors())
 
-radio.use(staticPlugin())
+radio.use(staticPlugin({prefix: ""}))
 
 radio.get("/", () => { return { "You're now listening to : ": "Radio norn" } });
 
@@ -22,7 +22,7 @@ radio.guard({
       return "You're not authorized"
     }
   }
-}, (app) => app.use(country).use(century))
+}, (app) => app.use(country).use(events))
 
 
 radio.listen(8000);

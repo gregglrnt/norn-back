@@ -1,6 +1,7 @@
 import { Elysia, t } from "elysia";
 import { prisma } from "../prisma";
 import { normalize } from "./utils/normalize";
+import { Prisma } from "@prisma/client";
 import { env } from "bun";
 
 const country = new Elysia().group("country", (app) =>
@@ -13,23 +14,29 @@ const country = new Elysia().group("country", (app) =>
             console.error(error)
         }
     })
-        .put("/update/:name", async ({body, params}) => {
+        .put("/update/:name", async ({body, params, set}) => {
             try {
-                const normalizedCountry = normalize(params.name);
-                const url = `${import.meta.resolveSync(`../public/flags/${normalizedCountry}.jpg`)}`;
-                await Bun.write(url, body.flag);
+                const {name} = params;
+                const extension = body.flag.name.split(".").pop() || ".jpg";
+                const normalizedCountry = name;
+                await Bun.write(`./public/flags/${normalizedCountry}.${extension}`, body.flag);
                 const updated= await prisma.country.update({
                     where: {
-                        name: params.name
+                        name: name
                     },
                     data: {
-                        flag: `${env.BACK_URL}/public/flags/${normalizedCountry}.jpg`
+                        flag: `${env.BACK_URL}/flags/${name}.${extension}`
                     }
                 })
                 return updated;
             }
-            catch (error) {
-                console.error(error)
+            catch (e) {
+                if(e instanceof Prisma.PrismaClientKnownRequestError) {
+                    if (e.code === "P2025") {
+                        set.status = 400
+                        return `Not acceptable, country ${params.name} does not exist. Create it beforehand`;
+                    }
+                }
             }
         }, {
             body: t.Object({
