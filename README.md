@@ -24,10 +24,10 @@ This is here that Norn's magic is made. Norn's back-end is a historical API, wit
     - `events`: Event[]
 
 ## ⚒️ TODO
-- [ ] Have at least 100 events (for prod)
+- [x] Have at least 100 events (for prod)
 - [ ] `GET /country` route
-- [ ] Tokens (for prod)
+- [x] Tokens (for prod)
 - [ ] `POST GET /users` for authentication (v2)
 - [ ] `PUT /event` route for updating existing events
-- [ ] `POST /event` to create new event
+- [x] `POST /event` to create new event
 - [ ] Enhance country object with description for ex.

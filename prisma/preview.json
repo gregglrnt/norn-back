@@ -16,7 +16,7 @@
   {
     "title": "Leonardo da Vinci dies",
     "date": "2/05/1519",
-    "description": "In his castle in Clos-Lucé, Leonardo da Vinci dies",
+    "description": "In his castle in Clos-Lucé, Leonardo da Vinci die",
     "coordinates": "47.40892028808594,0.9935508966445923",
     "country": "France"
   },
@@ -24,7 +24,8 @@
     "title": "Christopher Colombus arrives in America",
     "date": "12/10/1492",
     "description": "Almost 500 years after the last Vikings were there, Christopher Colombus arrives in America.",
-    "coordinates": "24.0366667,-74.49305555555556"
+    "coordinates": "24.0366667,-74.49305555555556",
+    "country": null
   },
   {
     "title": "Henri VIII sacred king of England",
@@ -37,21 +38,21 @@
     "title": "Start of the Civil War (USA)",
     "date": "12/04/1861",
     "description": "The Confederates bombard Fort Sumter In South Carolina, starting the Civil war. It will be the bloodiest war in US history.",
-    "coordinates": "32.752222,-79.874722",
+    "coordinates": "32.752222, -79.874722",
     "country": "USA"
   },
   {
     "title": "Saturn V leaves Earth for the Moon",
     "date": "16/07/1969",
     "description": "Apollo 11 leaves Earth. It is the first manned mission to lay foot on the moon.",
-    "coordinates": "28.524167,-80.650833",
+    "coordinates": "28.524167, -80.650833",
     "country": "USA"
   },
   {
     "title": "Rome was not made in a day",
     "date": "21/04/-753",
     "description": "According to Roman myths, Rome was founded on that day, but historically, that's probably not the case",
-    "coordinates": "41.888732,12.48657",
+    "coordinates": "41.888732, 12.48657",
     "country": "Roman Republic"
   },
   {
@@ -72,14 +73,14 @@
     "title": "Tennis Court Oath",
     "date": "20/06/1789",
     "description": "The members of the French Third estate join in a tennis (\"jeu de paume\") court and take an oath to never separate until France has a constitution.",
-    "coordinates": "48.801,2.123889",
+    "coordinates": "48.801, 2.123889",
     "country": "France"
   },
   {
     "title": "Sad night in Texcoco",
     "date": "30/06/1520",
     "description": "Hernan Cortez and the Spanish conquistadores are defeated by the Aztecs and retreat… well, not for long.",
-    "coordinates": "19.419444,-99.133333",
+    "coordinates": "19.419444, -99.133333",
     "country": "Aztec Empire"
   },
   {
@@ -119,7 +120,7 @@
   },
   {
     "title": "Crusade V : let's try to do something guys",
-    "date": "01/01/1213",
+    "date": "x/x/1213",
     "description": "Innocent III is very stubborn and tries for another crusade, this time against Egypt.",
     "coordinates": "41.888732, 12.48657",
     "country": "Papal States"
@@ -151,5 +152,551 @@
     "description": "The heir prince of England, Edward, arrives in Acre for a new crusade, which will be the last.",
     "coordinates": "32.927778, 35.081667",
     "country": "Outremer"
+  },
+  {
+    "title": "Constantin converts to christianity",
+    "date": "28/10/312",
+    "description": "Whether by religious illumination or by political choice, Constantin decides he's going to try a new God after a victorious battle at the Milvian bridge.",
+    "coordinates": "41.935556, 12.466944",
+    "country": "Roman Empire"
+  },
+  {
+    "title": "Hannibal Barca crosses the Alps",
+    "date": "x/x/-218",
+    "description": "Somewhere around here, 100,000 soldiers from Carthage cross the Alps in a difficult climate, and with elephants.",
+    "coordinates": "45.925556, 7.1845",
+    "country": "Roman Republic"
+  },
+  {
+    "title": "India officially independent",
+    "date": "15/08/1947",
+    "description": "By the Indian Independence Act, India and Pakistan are separated and independent.",
+    "coordinates": "28.613889, 77.208889",
+    "country": "India"
+  },
+  {
+    "title": "Cyrus the Great dies",
+    "date": "4/12/-330",
+    "description": "At around 70, the king of Persia (but also the king of kings, etc) becomes dead.",
+    "coordinates": "30.2, 53.179444",
+    "country": "Persia"
+  },
+  {
+    "title": "Carthago delenda est",
+    "date": "x/x/-146",
+    "description": "After the Third punic war and a siege of 3 years, Carthage is finally destroyed.",
+    "coordinates": "36.8531, 10.3231",
+    "country": "Carthage"
+  },
+  {
+    "title": "Cleopatra VII snakes herself out of life",
+    "date": "12/08/-30",
+    "description": "Maybe she didn't kill herself with snakes, but in the end, she's now dead and no longer a threat.",
+    "coordinates": "31.1981, 29.9185",
+    "country": "Egypt"
+  },
+  {
+    "title": "Battle at Actium between Marc Anthony and Octavian",
+    "date": "02/09/-31",
+    "description": "One of the most important naval battles in ancient history, the battle of Actium is a triumph for Octavian.",
+    "coordinates": "38.925, 20.725",
+    "country": "Roman Republic"
+  },
+  {
+    "title": "Tiberius leaves Rome for Capri",
+    "date": "x/x/27",
+    "description": "After a series of unfortunate events, Tiberius prefers to go on vacation in Capri for the rest of his life.",
+    "coordinates": "40.549, 14.233",
+    "country": "Roman Empire"
+  },
+  {
+    "title": "Ashoka slaughters around 250,000 enemies in Kalinga",
+    "date": "x/x/-261",
+    "description": "The Kalinga War is a bloody one, and will bring the Indian king to convert to Buddhism",
+    "coordinates": "20.2635, 85.8279",
+    "country": "Mauryan Empire"
+  },
+  {
+    "title": "Massacre in Cannae",
+    "date": "02/08/-216",
+    "description": "Another battle between Hannibal and the Romans ends up in catastrophe for the Romans, though Hannibal will not be able to benefit from it.",
+    "coordinates": "41.3064, 16.1326",
+    "country": "Roman Republic"
+  },
+  {
+    "title": "Mansa Moussa's generosity crumbles Egyptian economy",
+    "date": "01/07/1324",
+    "description": "The mansa of Mali, Mansa Moussa, spends so much money during his hajj in Egypt that gold looses value.",
+    "coordinates": "30.0447, 31.2451",
+    "country": "Mamluk Egypt"
+  },
+  {
+    "title": "Shajar al-Durr, sultana of Egypt",
+    "date": "2/05/1250",
+    "description": "A former slave and concubine, Shajar al-Durr is nominated as sultana (yes, female) of Egypt.",
+    "coordinates": "30.0447, 31.2451",
+    "country": "Mamluk Egypt"
+  },
+  {
+    "title": "The 38-minutes war between Zanzibar and the UK",
+    "date": "27/08/1896",
+    "description": "The British defeat Zanzibar in 38 minutes, marking the shortest war in history.",
+    "coordinates": "-5.9, 39.3",
+    "country": "Zanzibar"
+  },
+  {
+    "title": "King Sebastian of Portugal gets lost",
+    "date": "4/08/1578",
+    "description": "The Battle of Three Kings is a huge defeat for the Portuguese ; their king, the young Sebastian, is never found again, probably dead, but will be like an Arthurian figure for centuries to come.",
+    "coordinates": "35.016667, -5.9",
+    "country": "Morocco"
+  },
+  {
+    "title": "Gran Columbia established",
+    "date": "17/12/1819",
+    "description": "The Republic of Colombia, encompassing nowadays' Colombia, Ecuador, Venezuala and Panama, is proclaimed with Bolivar as president.",
+    "coordinates": "7.894167, -72.503889",
+    "country": "Gran Colombia"
+  },
+  {
+    "title": "Tupac Amaru executed",
+    "date": "25/09/1576",
+    "description": "The last Sapa inca is murdered by the Spanish conquistadores.",
+    "coordinates": "-13.525, -71.972222",
+    "country": "Inca Empire"
+  },
+  {
+    "title": "Jayavarman II establishes the Khmer Empire",
+    "date": "x/x/802",
+    "description": "Jayavarman declares himself \"emperor\" of the Khmer people.",
+    "coordinates": "13.612778, 104.1125",
+    "country": "Khmer Empire"
+  },
+  {
+    "title": "Signature of \"baqt\" between Makuria and Egypt",
+    "date": "x/x/652",
+    "description": "The Christian kingdom of Makuria and muslim Egypt sign a peace which will last until the 13th century.",
+    "coordinates": "19.1698, 30.4761",
+    "country": "Makuria"
+  },
+  {
+    "title": "Baghdad is sacked",
+    "date": "10/02/1258",
+    "description": "After a siege of 13 days by the Mongol prince Hulegu, the caliph surrendes, but the entire population (and himself) is slaughtered.",
+    "coordinates": "33.3475, 44.335",
+    "country": "Abbassid Caliphate"
+  },
+  {
+    "title": "The Round city of Baghdad is completed",
+    "date": "x/x/766",
+    "description": "The new capital of the Abbassid empire, Baghdad, is now built, and caliph Al-Mansur moves his residence here.",
+    "coordinates": "33.3475, 44.335",
+    "country": "Abbassid Caliphate"
+  },
+  {
+    "title": "Murder of Prince Franz Ferdinand",
+    "date": "28/06/1914",
+    "description": "Archduke Franz-Ferdinand of Austria-Hungary is assassinated in Sarajevo by Gavrilo Princip, which will soon provoke war in Europe.",
+    "coordinates": "43.857917, 18.428861",
+    "country": "Austria-Hungary"
+  },
+  {
+    "title": "Founding of the 25th Dynasty",
+    "date": "x/x/-744",
+    "description": "The 25th Dynasty, aka the Black pharaohs (because they came from Kush), is established by Piye after his invasion of Egypt.",
+    "coordinates": "29.8478, 31.2534",
+    "country": "Egypt"
+  },
+  {
+    "title": "Japan supposedly now exists",
+    "date": "11/02/-660",
+    "description": "It is on this year that mythical emperor Jinmu created Japan.",
+    "coordinates": "34.4925, 135.784722",
+    "country": "Japan"
+  },
+  {
+    "title": "Jerusalem falls",
+    "date": "01/06/-587",
+    "description": "The capital of Judah is annexed by Babylonia and the temple of Jerusalem is destroyed.",
+    "coordinates": "31.783, 35.217",
+    "country": "Judah"
+  },
+  {
+    "title": "Construction of the Second temple",
+    "date": "21/02/-515",
+    "description": "It is supposedly on this day that the construction of the Second temple of Jerusalem is completed.",
+    "coordinates": "31.783, 35.217",
+    "country": "Achaemenid Empire"
+  },
+  {
+    "title": "Battle of Marathon",
+    "date": "10/09/-490",
+    "description": "In Marathon, the Greeks defeat the more numerous Persians, even though the odds weren't in their favour. The guy running from there to Athens is credited for creating the eponymous run.",
+    "coordinates": "38.118056, 23.978333",
+    "country": "Ancient Greece"
+  },
+  {
+    "title": "Greeks crushed in the Thermopylae",
+    "date": "20/08/-480",
+    "description": "The Greek alliance tries to defend itself against the vast army of King Xerxes, but they are still crushed.",
+    "coordinates": "38.795833, 22.536944",
+    "country": "Ancient Greece"
+  },
+  {
+    "title": "Greek victory in Salamis",
+    "date": "27/09/-480",
+    "description": "The Athenians manage to win in Salamis, marking the turning point of the (soon failed) Persian invasion of Greece.",
+    "coordinates": "37.951389, 23.566667",
+    "country": "Ancient Greece"
+  },
+  {
+    "title": "The Mauryan Empire is established",
+    "date": "x/x/-322",
+    "description": "After defeating the waning Nanda Empire, Chandragupta Maurya creates the brand new Mauryan Empire.",
+    "coordinates": "25.6125, 85.128333",
+    "country": "Mauryan Empire"
+  },
+  {
+    "title": "A Gallic tribe defeats the Romans",
+    "date": "18/07/-387",
+    "description": "Gallic leader Brennus defeats the Romans at the Allia River, and thereafter sacks Rome.",
+    "coordinates": "42.0175, 12.52",
+    "country": "Roman Republic"
+  },
+  {
+    "title": "Alexander the Great now rules the world",
+    "date": "01/10/-331",
+    "description": "Alexander of Macedonia defeats the Achaemenid King Darius III and is now the leader of the world.",
+    "coordinates": "36.56, 43.44",
+    "country": "Achaemenid Empire"
+  },
+  {
+    "title": "Alexander's empire cakeified",
+    "date": "x/x/-323",
+    "description": "Alexander the Great is now dead and heirless. His generals decide to share the empire between themselves in Babylon.",
+    "coordinates": "32.5425, 44.421111",
+    "country": "Macedonia"
+  },
+  {
+    "title": "A big lighthouse appears",
+    "date": "x/x/-289",
+    "description": "It is around that time that the Pharos of Alexandria is erected.",
+    "coordinates": "31.2147, 29.8861",
+    "country": "Egypt"
+  },
+  {
+    "title": "One of the bloodiest battles in history",
+    "date": "x/x/-262",
+    "description": "At Changping, the kingdoms of Qin and Zhao slaughter each other, with around 650,000 dead.",
+    "coordinates": "35.798056, 112.923889",
+    "country": "Zhou"
+  },
+  {
+    "title": "Qin Shi Huangdi proclaims himself emperor",
+    "date": "6/07/-247",
+    "description": "The king of Qin, Zheng, will now be known as Qin Shi Huangdi, the first emperor.",
+    "coordinates": "34.348, 108.718",
+    "country": "Qin"
+  },
+  {
+    "title": "Qin Shi Hunagdi will not be immortal, sorry",
+    "date": "12/07/-210",
+    "description": "While traveling to find the Elixir of Life, Qin Shi Huangdi dies at only 49, maybe because of all the mercury he took to live forever.",
+    "coordinates": "37.1653, 116.4341",
+    "country": "Qin"
+  },
+  {
+    "title": "Ptolemy V becomes King",
+    "date": "x/x/-196",
+    "description": "Egypt has a new king, and they celebrate it by creating steles such as the famous Rosetta Stone.",
+    "coordinates": "30.964722, 30.768333",
+    "country": "Egypt"
+  },
+  {
+    "title": "Emperor Jing ascends on the throne of China",
+    "date": "14/07/-157",
+    "description": "The new emperor of Han leads China in a golden age.",
+    "coordinates": "34.308333, 108.858333",
+    "country": "Han"
+  },
+  {
+    "title": "King Mithridates is finally defeated",
+    "date": "x/x/-66",
+    "description": "He managed to annoy Rome for more than 20 years (88 - 63). But now Mithridates has been defeated by Pompey.",
+    "coordinates": "40.766, 36.5092",
+    "country": "Pontus"
+  },
+  {
+    "title": "Revolt of the slaves led by Spartacus",
+    "date": "x/x/-73",
+    "description": "In Rome, the slaves revolt against Rome, starting the Third Servile War, led by legendary Spartacus",
+    "coordinates": "41.105556, 14.213889",
+    "country": "Roman Republic"
+  },
+  {
+    "title": "Vercingetorix surrenders in Alesia",
+    "date": "x/x/-52",
+    "description": "Julius Caesar besieges Alesia, and after 3 months, the Gallic leader Vercingetorix surrenders.",
+    "coordinates": "47.537, 4.5",
+    "country": "Gaul"
+  },
+  {
+    "title": "Emperor Ai makes his lover commander of the army",
+    "date": "30/01/-1",
+    "description": "The emperor's lover, Dong Xian, becomes commander of the armed forces at only 22.",
+    "coordinates": "34.308333, 108.858333",
+    "country": "Han"
+  },
+  {
+    "title": "Start of the Yellow Turban Rebellion",
+    "date": "29/03/184",
+    "description": "In Han China,peasants start to revolt against the corrupt Han dynasty.",
+    "coordinates": "37.063, 115.03",
+    "country": "Han"
+  },
+  {
+    "title": "Cao Cao defeated at the Red Cliffs",
+    "date": "x/x/208",
+    "description": "Cao Cao and Lui Bei fight at the Battle of the Red cliff, one of the most decisive battles during the Three kingdoms period.",
+    "coordinates": "29.869722, 113.620278",
+    "country": "Three Kingdoms"
+  },
+  {
+    "title": "Valerian defeated in Edessa",
+    "date": "x/x/260",
+    "description": "In Edessa, the Sasanians triumph over Valerian, take him prisoner and (apparently) use him as a seeping stool.",
+    "coordinates": "37.15, 38.8",
+    "country": "Roman Empire"
+  },
+  {
+    "title": "King Ezana embraces christianity",
+    "date": "x/x/325",
+    "description": "In 325 o 328, Ezana of Aksum becomes Christian, making Aksum one of the first Christian countries.",
+    "coordinates": "14.120833, 38.727778",
+    "country": "Aksum"
+  },
+  {
+    "title": "Rome sacked again",
+    "date": "24/08/410",
+    "description": "In what will soon become a tradition, Rome is sacked by the Visigoths. The traumatic event marks the beginning of the end for the Western Roman Empire.",
+    "coordinates": "41.935556, 12.466944",
+    "country": "Western Roman Empire"
+  },
+  {
+    "title": "The Huns defeat the Romans at Utus River",
+    "date": "x/x/447",
+    "description": "Attila defeats the Roman troops in today's Bulgaria.",
+    "coordinates": "43.61, 24.6799",
+    "country": "Eastern Roman Empire"
+  },
+  {
+    "title": "Fall of Rome",
+    "date": "4/09/476",
+    "description": "Odoacer forces Roman emperor Romulus Augustulus to abdicate, and sends the ensigns of the empire to the Eastern Roman Emperor Zeno, \"reuniting\" the two parts (though it is now known as the end of the Western part of the Roman empire.)",
+    "coordinates": "41.935556, 12.466944",
+    "country": "Western Roman Empire"
+  },
+  {
+    "title": "Volcanic winter",
+    "date": "x/x/536",
+    "description": "Welcome to the worst year in history, because some volcano exploded somewhere in the world and now everything's cold.",
+    "coordinates": "41.0125, 28.98",
+    "country": null
+  },
+  {
+    "title": "Creation of Kongo Gumi",
+    "date": "x/x/578",
+    "description": "The world's oldest company supposedly was created that year.",
+    "coordinates": "34.693889, 135.502222",
+    "country": "Japan"
+  },
+  {
+    "title": "Toilet papers 🧻 exists",
+    "date": "x/x/589",
+    "description": "A Chinese scholar makes the first reference to toilet paper.",
+    "coordinates": "34.308333, 108.858333",
+    "country": "Northern and Southern dynasties"
+  },
+  {
+    "title": "Pacal becomes king of Palenque",
+    "date": "01/07/615",
+    "description": "Pacal will be one of the longest reigning monarchs in the world, keeping the crown for 68 years.",
+    "coordinates": "17.484167, -92.046389",
+    "country": "Maya"
+  },
+  {
+    "title": "First defeat for the Rashidun",
+    "date": "x/x/642",
+    "description": "The Rashidun army is defeated by the Christian kingdom of Makuria, stopping their progression south.",
+    "coordinates": "18.224444, 30.7425",
+    "country": "Makuria"
+  },
+  {
+    "title": "Big battle in Baekgang",
+    "date": "27/09/663",
+    "description": "The Korean Silla kingdom, Japan and Tang China clash on this naval battle, won by Silla and establishing them as a big force in Korea.",
+    "coordinates": "36, 126.667",
+    "country": "Silla"
+  },
+  {
+    "title": "The Romans use Greek fire against the Arabs",
+    "date": "x/x/678",
+    "description": "During the First siege of Constantinople (674-678), the Romans end up using the mysterious Greek fire, destroying the Arab fleet.",
+    "coordinates": "41.0122, 28.9761",
+    "country": "Eastern Roman Empire"
+  },
+  {
+    "title": "A new capital city for Japan",
+    "date": "x/x/710",
+    "description": "Empress Genmei moves the capital city to Nara.",
+    "coordinates": "34.684444, 135.805",
+    "country": "Japan"
+  },
+  {
+    "title": "Battle of Talas between Tang China and the Abbassids",
+    "date": "x/x/751",
+    "description": "Even though the Arabs win against the Tang empire, the equilibrium of power is maintained in central Asia.",
+    "coordinates": "42.525, 72.233333",
+    "country": "Tang"
+  },
+  {
+    "title": "Charlemagne becomes the first western emperor in a while",
+    "date": "25/12/800",
+    "description": "A brand new Roman emperor (well, not so roman) is proclaimed : Emperor Charlemagne.",
+    "coordinates": "",
+    "country": ""
+  },
+  {
+    "title": "Leif Erikson becomes first European in America",
+    "date": "x/x/1001",
+    "description": "Some Vikings settle in Vinland, but quickly start to have sour relations with the neighbouring \"Skraelings\" (the ugly ones - that's not nice).",
+    "coordinates": "51.596389, -55.533333",
+    "country": "Vinland"
+  },
+  {
+    "title": "Irish victory at Clontarf",
+    "date": "23/04/1014",
+    "description": "The Irish defeat the Vikings, bringing down their power in the region.",
+    "coordinates": "53.365, -6.1975",
+    "country": "Gaelic Ireland"
+  },
+  {
+    "title": "Disappearance of al-Hakim",
+    "date": "12/02/1021",
+    "description": "Caliph Al-Hakim disappears, and we still don't know what happens to him.",
+    "coordinates": "30.044444, 31.235833",
+    "country": "Fatimid Empire"
+  },
+  {
+    "title": "Saint Olaf II killed during a battle",
+    "date": "29/07/1030",
+    "description": "While fighting against pagan jarls, Olaf II is killed in the battle of Stiklestad, which will later grant him the title of saint.",
+    "coordinates": "63.796667, 11.566667",
+    "country": "Norway"
+  },
+  {
+    "title": "A new king in Georgia",
+    "date": "x/x/1089",
+    "description": "David IV of Georgia is crowned, and will become one of the most successful leaders of the country.",
+    "coordinates": "41.7225, 44.7925",
+    "country": "Georgia"
+  },
+  {
+    "title": "Turning point in the Reconquista",
+    "date": "16/07/1212",
+    "description": "At the battle of Las Navas de Tolosa, the Christians defeat the Moors, starting a new phase of the Reconquista.",
+    "coordinates": "38.28443, -3.58286",
+    "country": "Castile"
+  },
+  {
+    "title": "Beginning of the kingdom of Zimbabwe",
+    "date": "x/x/1220",
+    "description": "The kingdom of Zimbabwe is established around that time, and will leave the biggest ruins in Africa: Great Zimbabwe.",
+    "coordinates": "-20.266667, 30.933333",
+    "country": "Zimbabwe"
+  },
+  {
+    "title": "Mongols again fail against the Japanese at Kōan",
+    "date": "22/09/1281",
+    "description": "The second attempt of the Mongols to invade Japan fails again, and again because of wind.",
+    "coordinates": "33.6251, 130.3328",
+    "country": "Japan"
+  },
+  {
+    "title": "The Timurids triumph in Ankara",
+    "date": "20/07/1402",
+    "description": "The Ottoman sultan Bayezid is taking as a prisoner by Timur, crumbling the state and bringing it to civil war.",
+    "coordinates": "40.15, 32.95",
+    "country": "Ottoman empire"
+  },
+  {
+    "title": "Jan Hus is burned",
+    "date": "6/07/1412",
+    "description": "After trying to reform christianity, Jan Hus fails and is burned as an heretic at the Council of Constance.",
+    "coordinates": "47.666667, 9.183333",
+    "country": "Holy Roman Empire"
+  },
+  {
+    "title": "Pacahuti creates the Inca Empire",
+    "date": "x/x/1438",
+    "description": "The king of Cuzco establishes a new empire, the Inca empire.",
+    "coordinates": "-13.525, -71.972222",
+    "country": "Inca Empire"
+  },
+  {
+    "title": "Creation of the Korean alphabet",
+    "date": "x/x/1443",
+    "description": "King Sejong creates a new Korean alphabet, Hangul.",
+    "coordinates": "37.56, 126.99",
+    "country": "Joseon"
+  },
+  {
+    "title": "VOC created",
+    "date": "20/03/1602",
+    "description": "The Dutch East India Company is created, soon to become the first multinational corporation.",
+    "coordinates": "52.372778, 4.893611",
+    "country": "Dutch Republic"
+  },
+  {
+    "title": "Third defenestration of Prague",
+    "date": "23/05/1618",
+    "description": "For the 3rd time in 200 years, people through other people from the windows in Prague. This time it will lead to the Thirty-years war.",
+    "coordinates": "50.0875, 14.421389",
+    "country": "Holy Roman Empire"
+  },
+  {
+    "title": "Massacre in Jamestown",
+    "date": "22/03/1622",
+    "description": "The settlers of Jamestown are slaugtered by the Powhatan.",
+    "coordinates": "37.2091, -76.7774",
+    "country": "British America"
+  },
+  {
+    "title": "Shah Jahan deposed by his son",
+    "date": "31/07/1658",
+    "description": "One of the most famous Moghols emperors, Shah Jahan is deposed after an illness by his son, Aurangzeb, who becomes the new emperor.",
+    "coordinates": "27.1795, 78.0213",
+    "country": "Moghol Empire"
+  },
+  {
+    "title": "Start of the Taiping Rebellion",
+    "date": "11/01/1851",
+    "description": "The Christian Taiping Heavenly kingdom is proclaimed, starting the (very) bloody Taiping Rebellion.",
+    "coordinates": "32.060833, 118.778889",
+    "country": "Qing"
+  },
+  {
+    "title": "Africa is now a cake",
+    "date": "15/11/1884",
+    "description": "The Berlin conference carves Africa between the different European countries.",
+    "coordinates": "52.52, 13.405",
+    "country": "Germany"
+  },
+  {
+    "title": "French forces are defeated by the Mexicans",
+    "date": "5/05/1862",
+    "description": "At the Battle of Puebla, the Mexicans unexpectedly triumph over the French forces.",
+    "coordinates": "19.05, -98.2",
+    "country": "Mexico"
   }
 ]

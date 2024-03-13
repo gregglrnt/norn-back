@@ -1,6 +1,7 @@
 import { Elysia, t } from "elysia";
 import { prisma } from "../prisma";
 import { normalize } from "./utils/normalize";
+import { createEvent } from "./utils/crud";
 
 const events = new Elysia().group("events", (app) =>
     app.get("*", async ({ params, set }) => {
@@ -24,48 +25,19 @@ const events = new Elysia().group("events", (app) =>
         }
     }).post("create", async ({ body, set }) => {
         try {
-            const [d, m, y] = body.date.split("/").map((e) => parseInt(e));
-            if (Number.isNaN(d) || Number.isNaN(m) || Number.isNaN(y)) {
-                throw new RangeError();
-            }
-            const date = new Date(y, m - 1, d).toISOString()
-            
-            const century = Math.ceil(y / 100);
-            const created = await prisma.event.create({
-                data: {
-                    title: body.title,
-                    description: body.description,
-                    coordinates: body.coordinates.join(","),
-                    date: date,
-                    century: {
-                        connectOrCreate: {
-                            create: {
-                                id: century,
-                            },
-                            where: {
-                                id: century,
-                            },
-                        }
-                    },
-                    country: {
-                        connectOrCreate: {
-                            create: {
-                                name: normalize(body.country ?? ""),
-                                label: body.country ?? ""
-                            }, where: {
-                                name: normalize(body.country ?? ""),
-                            }
-                        }
-                    }
-                }
-            })
+            const created = await createEvent(body);
             set.status = "Created";
             return created;
         } catch (e) {
             console.error(e);
             if (e instanceof RangeError) {
                 set.status = "Bad Request";
-                return "Wrong format. Date should be of type d/m/Y";
+                return {
+                    error: "Wrong format. Date should be of type d/m/Y, or x/x/Y if only the year is known. Note that d/x/Y will work, but will also display only the year.",
+                    example: [
+                        "12/10/1995", "x/x/-335"
+                    ]
+                };
             }
         }
     }, {
