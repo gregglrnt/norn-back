@@ -4,4 +4,5 @@ export type CSVEvent = {
     date: string,
     coordinates: string,
     country: string,
+    placeName?: string,
 }

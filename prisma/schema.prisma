@@ -29,6 +29,7 @@ model Event {
   date        String
   description String
   coordinates String
+  placeName   String?
   century     Century @relation(fields: [centuryId], references: [id])
   centuryId   Int
   country     Country @relation(fields: [countryId], references: [id])

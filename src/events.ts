@@ -21,6 +21,9 @@ const events = new Elysia().group("events", (app) =>
                     country: true
                 },
             })
+            set.headers = {
+                "Cache-Control": "max-age=3600"
+            }
             return century;
         } catch (err) {
             console.error(err);
@@ -49,6 +52,7 @@ const events = new Elysia().group("events", (app) =>
             date: t.String(),
             coordinates: t.Array(t.Number()),
             country: t.String(),
+            placeName: t.Optional(t.String())
         })
     }).post("/upload", async ({ body }) => {
         const created: Event[] = []

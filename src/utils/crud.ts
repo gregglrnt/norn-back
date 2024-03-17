@@ -7,6 +7,7 @@ type CreateEventData = {
     date: string,
     coordinates: number[],
     country: string,
+    placeName?: string,
 }
 
 export const  createEvent = async (body: CreateEventData) => {
@@ -33,6 +34,7 @@ export const  createEvent = async (body: CreateEventData) => {
                     description: body.description,
                     coordinates: body.coordinates.join(","),
                     date: date,
+                    placeName: body.placeName || null,
                     century: {
                         connectOrCreate: {
                             create: {
