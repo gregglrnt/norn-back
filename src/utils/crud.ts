@@ -9,7 +9,7 @@ type CreateEventData = {
     country: string,
 }
 
-export const createEvent = async (body: CreateEventData) => {
+export const  createEvent = async (body: CreateEventData) => {
     let date: string;
             const [d, m, y] = body.date.split("/").map((e) => {
                 if (e === "x") return undefined;
