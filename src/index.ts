@@ -1,6 +1,6 @@
 import { Elysia } from "elysia";
 import { staticPlugin } from "@elysiajs/static"
-import { prisma } from "../prisma";
+import { prisma } from "./prisma";
 import cors from "@elysiajs/cors";
 import { env } from "bun";
 import country from "./country";

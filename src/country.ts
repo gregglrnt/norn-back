@@ -1,5 +1,5 @@
 import { Elysia, t } from "elysia";
-import { prisma } from "../prisma";
+import { prisma } from "./prisma";
 import { normalize } from "./utils/normalize";
 import { Prisma } from "@prisma/client";
 import { env } from "bun";

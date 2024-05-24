@@ -1,5 +1,5 @@
 import { Elysia, t } from "elysia";
-import { prisma } from "../prisma";
+import { prisma } from "./prisma";
 import { createEvent } from "./utils/crud";
 import { CSVEvent } from "./types/events";
 import { parse } from "csv-parse";
