@@ -16,7 +16,7 @@ RUN bun prisma generate
 
 ENV NODE_ENV production
 ENV POSTGRES_PRISMA_URL "postgres://postgres.lnbyxvvmjrltgdrjwicf:k2@URPF!&4WQvCJ*45@aws-0-eu-central-1.pooler.supabase.com:5432/postgres"
-ENV BACK_URL "http://localhost"
+ENV BACK_URL "http://127.0.0.1"
 ENV DEV_TOKEN "RJAX8Bfu2ny8PbUFaeZFbydeiSAAb2TWgBtAf"
 
 CMD ["bun", "start"]

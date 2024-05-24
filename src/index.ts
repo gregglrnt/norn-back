@@ -1,6 +1,5 @@
 import { Elysia } from "elysia";
 import { staticPlugin } from "@elysiajs/static"
-import { prisma } from "./prisma";
 import cors from "@elysiajs/cors";
 import { env } from "bun";
 import country from "./country";
@@ -25,7 +24,7 @@ radio.guard({
 }, (app) => app.use(country).use(events))
 
 
-radio.listen(8000);
+radio.listen(radio.server?.port || 3000);
 
 console.log(
   `🚀 Server is running at ${radio.server?.hostname}:${radio.server?.port}`
